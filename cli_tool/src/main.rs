@@ -1,4 +1,4 @@
-use std::io;
+
 use std::env;
 
 fn main() {
