@@ -43,7 +43,8 @@ fn main() {
             if attempts > 3 {
                 println!("You lose!");
                 println!("Score: {score}");
-                break 'outer;
+                // Break out of the outer loop using label
+                break 'outer; 
             }
         }
     }
